@@ -1,0 +1,24 @@
+[color]
+	ui = true
+[user]
+	name = Ruslan Kabalin
+        email = ruslan.kabalin@gmail.com
+	signingkey = AF79AFFE
+[alias]
+        st      = status
+        br      = branch --color
+        co      = checkout
+        map     = !~/git/git-map/bin/git-map
+        wdiff   = diff --color-words
+        vimdiff = !GIT_EXTERNAL_DIFF='gitvimdiff' git --no-pager diff "$@"
+        stdel   = !git st | grep delete | awk '{print $3}' | xargs git rm
+        tig     = !tig --all
+	privateemail = config user.email \"ruslan.kabalin@gmail.com\"
+[core]
+        excludesfile=/home/ruslan/.gitignore
+[color]
+        diff    = auto
+        status  = auto
+        branch  = auto
+[apply]
+	whitespace = fix
