@@ -1,0 +1,27 @@
+! Colours:  1 Red    2 Green  3 Yellow  4 Blue  5 Magenta  6 Cyan
+!           7 LGrey  8 DGrey
+XTerm*background:         #1e1e1e
+XTerm*foreground:         #d3d3d3
+XTerm*cursorColor:        red
+XTerm*color0:             black
+XTerm*color1:             #e68282
+XTerm*color2:             #8cd78c
+XTerm*color3:             #c6c68b
+XTerm*color4:             #7e9dfc
+XTerm*color5:             #bd96f8
+XTerm*color6:             #72d5d5
+XTerm*color7:             #aaaaaa
+XTerm*color8:             #909090
+XTerm*color9:             #ff7878
+XTerm*color10:            #72d5bf
+XTerm*color11:            #c6c68b
+XTerm*color12:            #579afc
+XTerm*color13:            #bd96f8
+XTerm*color14:            #72d5d5
+XTerm*utf8:               1
+XTerm*locale:             no
+XTerm*termName:           xterm-color
+XTerm*scrollTtyOutput:    false
+XTerm*VT100.Translations: #override \
+                 Ctrl Shift <Key>V:    insert-selection(CLIPBOARD) \n\
+                 Ctrl Shift <Key>C:    copy-selection(CLIPBOARD)
