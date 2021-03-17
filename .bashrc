@@ -109,10 +109,8 @@ function get_prompt_command ()
         fi
 
         PS1="\! $(path_within_git_repo):$GITCOLOR$git_branch$NOCOL> "
-        echo -ne "]2;${USER}@${HOSTNAME} $git_branch($dirstate) $(path_within_git_repo)"
     else
         PS1="$NOCOL$default_prompt"
-        echo -ne "]2;${USER}@${HOSTNAME} `pwd`"
     fi
 }
 
